@@ -1,0 +1,19 @@
+{
+  "name": "Facebook - Delete My Timeline",
+  "version": "1.1",
+  "author": "Geo Piskas",
+  "manifest_version": 2,
+  "description": "Adds a page action in your Facebook profile tab in order to delete your posts.",
+  "icons": { "16": "img/icon16.png",
+             "48": "img/icon48.png",
+             "128": "img/icon128.png" },
+  "background": { "scripts": ["background.js"] },
+  "page_action": {
+	"default_icon": "img/icon48.png",
+	"default_title": "Facebook - Delete My Timeline"
+  },
+  "permissions" : [
+    "tabs",
+	"*://*.facebook.com/"
+  ]
+}
