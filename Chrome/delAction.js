@@ -20,6 +20,7 @@
 */
 
 function deleteAll() {
+				
     if (confirm("Are you sure you wish to proceed?")) {
 	
         var postList = document.getElementsByClassName('_dxs _p');
@@ -27,7 +28,7 @@ function deleteAll() {
 		var free = true;
 		
 		if (postList.length == 0) {
-            alert('No posts to delete! Are you sure this is your profile page?\nYour timeline is already empty.\n\nIf not, contact the developer at geopiskas@gmail.com'); 
+            alert('No posts to delete!\nYour timeline is already empty.\n\nIf not, contact the developer at geopiskas@gmail.com'); 
         } else {
 			// Wait for mutex
 			var waitMutex = setInterval(function() {
@@ -100,4 +101,8 @@ function deleteAll() {
     }
 }
 
-deleteAll();
+if (document.getElementById('activityLogButton')!=null) {
+	deleteAll();
+} else {
+	alert('Please navigate to your profile page first!'); 
+}
