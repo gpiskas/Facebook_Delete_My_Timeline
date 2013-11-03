@@ -7,4 +7,4 @@ Firefox: https://addons.mozilla.org/en-US/firefox/addon/facebook-delete-my-timel
 
 Chrome: https://chrome.google.com/webstore/detail/facebook-delete-my-timeli/olpgdigakalagbnckjmnhajofccbbeaf <br> Adds a 'Facebook - Delete My Timeline' page action that, when clicked, deletes all visible posts.
 
-Facebook - Delete My Timeline <br> Copyright (C) 2013  George Piskas
+Facebook - Delete My Timeline <br> Copyright (C) 2013  George Piskas 
